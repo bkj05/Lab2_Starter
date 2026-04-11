@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSE 110 Lab 2 meeting minutes page">
+    <link rel="icon" href="screenshots/example.png" type="image/png">
+    <title>CSE 110 Lab 2</title>
+</head>
+<body>
+    <header>
+        <h1>Pomodoro Timer First Brainstorm</h1>
+        <h2>Brainstorming Session</h2>
+        <h3>April 11, 2026</h3>
+
+        <nav>
+            <a href="#attendance">Attendance</a><br>
+            <a href="#agenda">Agenda</a><br>
+            <a href="#unfinished">Unfinished Business</a><br>
+            <a href="#new-business">New Business</a><br>
+            <a href="#media">Media</a><br>
+            <a href="#form">Form</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <ul>
+                <li>Benjamin</li>
+                <li>Amberly</li>
+                <li>Chris</li>
+                <li>Jordan</li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ol>
+                <li>Discuss timer features</li>
+                <li>Assign frontend work</li>
+                <li>Plan backend logic</li>
+                <li>Talk about user interface ideas</li>
+            </ol>
+        </section>
+
+        <section id="unfinished">
+            <h2>Unfinished Business</h2>
+            <p>
+                The team still needs to finish the <strong>dark mode idea</strong>,
+                review notification sounds, and decide how the timer should look on mobile.
+            </p>
+        </section>
+
+        <section id="new-business">
+            <h2>New Business</h2>
+            <div>
+                The group talked about adding a
+                <span>task history page</span>,
+                focus analytics, and a break reminder system.
+            </div>
+        </section>
+
+        <section>
+            <h2>Miscellaneous Comments</h2>
+            <p>
+                <b>Important:</b> everyone should finish their assigned tasks before the next meeting.<br>
+                <i>Reminder:</i> make sure all code is pushed to GitHub before review.
+            </p>
+            <p>
+                <em>The team also wants accessibility to be a priority</em> and to keep the layout simple.
+            </p>
+        </section>
+
+        <section id="media">
+            <h2>Meeting Diagram</h2>
+            <img src="screenshots/example.png" alt="Example diagram from the meeting" width="300">
+
+            <h2>Audio Recording</h2>
+            <audio controls>
+                <source src="meeting-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h2>Video Recording</h2>
+            <video controls width="320">
+                <source src="meeting-video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <section>
+            <details>
+                <summary>Extra Meeting Notes</summary>
+                <p>
+                    The team agreed that the first version should focus on core timer functionality
+                    before extra features are added.
+                </p>
+            </details>
+        </section>
+
+        <section id="form">
+            <h2>Meeting Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Quick Feedback</legend>
+
+                    <p>Name:</p>
+                    <input type="text" name="name">
+
+                    <p>Date:</p>
+                    <input type="date" name="meeting-date">
+
+                    <p>Which area do you want to work on?</p>
+                    <input type="radio" id="frontend" name="role" value="frontend">
+                    <label for="frontend">Frontend</label><br>
+                    <input type="radio" id="backend" name="role" value="backend">
+                    <label for="backend">Backend</label><br>
+                    <input type="radio" id="design" name="role" value="design">
+                    <label for="design">Design</label>
+
+                    <p>What features should be included?</p>
+                    <input type="checkbox" id="darkmode" name="feature" value="darkmode">
+                    <label for="darkmode">Dark Mode</label><br>
+                    <input type="checkbox" id="analytics" name="feature" value="analytics">
+                    <label for="analytics">Analytics</label><br>
+                    <input type="checkbox" id="history" name="feature" value="history">
+                    <label for="history">Task History</label>
+
+                    <p>Favorite tool:</p>
+                    <input list="tools" name="tool">
+                    <datalist id="tools">
+                        <option value="VS Code"></option>
+                        <option value="GitHub"></option>
+                        <option value="Chrome DevTools"></option>
+                        <option value="Figma"></option>
+                    </datalist>
+
+                    <p>Select your team:</p>
+                    <select name="team">
+                        <option value="frontend">Frontend</option>
+                        <option value="backend">Backend</option>
+                        <option value="design">Design</option>
+                    </select>
+
+                    <p>Additional comments:</p>
+                    <textarea name="comments" rows="4" cols="40"></textarea>
+
+                    <br><br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>CSE 110 Lab 2</p>
+    </footer>
+</body>
+</html>
