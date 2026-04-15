@@ -1,8 +1,8 @@
 Q1: MongAvery
-Q2: iHeartWebDev
+Q2: iHateC++
 Q3: HTMLRules
 Q4: JavaScriptRocks
-Q5: ShrivyBeatsBeauty
+Q5: ShraviBeatsReact
 Q6: ThisIsJSyay
 Q7: SofiaWasHere
 Q8: coolcoolcool3x
